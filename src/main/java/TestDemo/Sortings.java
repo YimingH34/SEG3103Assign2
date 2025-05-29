@@ -1,5 +1,9 @@
 package TestDemo;
+import org.openjdk.jmh.annotations.*;
+
 import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
+
 
 public class Sortings {
 
@@ -23,8 +27,7 @@ public class Sortings {
         return c;
     }
 
-
-    public int[] Heapsort(int arr[])
+    public int[] Heapsort(int[] arr)
     {
         int n = arr.length;
 

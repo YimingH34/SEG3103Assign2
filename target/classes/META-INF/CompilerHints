@@ -3,7 +3,7 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,TestDemo/JMHSample.concatUsingStringBuilder
-inline,TestDemo/JMHSample.stringConcat
-inline,TestDemo/SplitBenchmark.benchMarkOne
-inline,TestDemo/SplitBenchmark.benchMarkTwo
+inline,TestDemo/JMHSample.bubbleSort
+inline,TestDemo/JMHSample.builtInSort
+inline,TestDemo/JMHSample.heapSort
+inline,TestDemo/JMHSample.setup
